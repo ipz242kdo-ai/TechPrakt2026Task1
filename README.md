@@ -1,16 +1,35 @@
-# React + Vite
+# ![ЖП](https://media.ztu.edu.ua/wp-content/uploads/2020/02/Group-6-1-1536x465.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Виконання практичної роботи передбачає вивчення прийомів роботи з системою контролю версій **Git** та засобами фронтенд-розробки на основі **Vite**:
 
-Currently, two official plugins are available:
+- генерація SSH-ключа та налаштування доступу до GitHub;
+- створення віддаленого репозиторію;
+- інціалізація проєкту на **Vite** з використанням шаблону **React**;
+- перевірка коректної роботи `.gitignore`;
+- реалізація трекера завдань (додавання, позначення виконаним);
+- внесення інформації до **README.md** за допомогою Markdown-розмітки.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+У **практичній роботі №1** було:
 
-## React Compiler
+1. згенеровано SSH-ключ та налаштовано доступ до GitHub;
+2. створено віддалений репозиторій `TechPrakt2026Task1` на GitHub;
+3. інціалізовано проєкт на Vite (шаблон React + JavaScript);
+4. перевірено роботу `.gitignore` (папка `node_modules` не потрапляє в індекс);
+5. реалізовано трекер завдань: поле введення, кнопка «Додати», список завдань;
+6. реалізовано взаємодію зі списком: клік на завдання позначає його виконаним (закреслює).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Використані команди Git
 
-## Expanding the ESLint configuration
+У **практичній роботі №1** було використано такі команди Git:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [x] `ssh-keygen`
+- [x] `ssh-add`
+- [x] `git clone`
+- [x] `git config`
+- [x] `git check-ignore`
+- [ ] `git status`
+- [ ] `git add`
+- [ ] `git commit`
+- [ ] `git push`
+
+**Виконав:** *Кучинський Денис*
